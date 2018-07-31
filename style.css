@@ -1,9 +1,46 @@
 body {
 	background-color: black;
 }
+h2 {
+	font-size: 32pt;
+}
+h3 {
+	font-size: 32pt;
+	color: black;
+}
+li {
+	font-size: 18pt;
+}
+
+
+#img-caption {
+	font-size: 18pt;
+}
+
 .white{
 	color:white;
+
 }
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 31.3%;
+  padding: 10px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.thin_black_border{
+	border-color: black;
+	border-width: 10px;
+	border-style: solid;
+}
+}
+
 #main{
 
 	height:90%;
@@ -22,24 +59,20 @@ body {
 #image
 {
 	max-width :100%;
-  display: block;
+  	display: block;
 	height: auto;
 	
 
 }
-#tribute-info
+.background_border
 {
 	background-color: #374A67;
 	border-radius: 20px;
 	border: 5px solid #1D7874;
+	padding: 10px;
+	margin: 10px
+
 
 
 }
 
-ul {
-	list-style-position: inside;
-    margin: 0 auto;
-    position: relative;
-    text-align: left;
-    width: 800px;
-}
